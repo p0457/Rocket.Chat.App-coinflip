@@ -1,0 +1,15 @@
+{
+    "id": "5d23039c-eed7-456a-8f7c-878a9e6b1944",
+    "version": "0.0.1",
+    "requiredApiVersion": "^0.9.13",
+    "iconFile": "icon.jpg",
+    "author": {
+        "name": "Thomas Gardner",
+        "homepage": "https://github.com/tgardner851",
+        "support": "https://github.com/tgardner851/Rocket.Chat.App-coinflip"
+    },
+    "name": "Coin Flip",
+    "nameSlug": "coin-flip",
+    "classFile": "CoinFlipApp.ts",
+    "description": "Flips a coin."
+}
