@@ -4,8 +4,8 @@ import { CoinFlipResult } from '../helper/CoinFlipResult';
 
 export class CoinFlipGetter {
     public async flip(): Promise<CoinFlipResult> {
-      const thecoin = ["Heads", "Tails"];
-      let result = new CoinFlipResult();
+      const thecoin = ['Heads', 'Tails'];
+      const result = new CoinFlipResult();
       result.result = thecoin[Math.floor(Math.random() * thecoin.length)];
       return result;
     }
