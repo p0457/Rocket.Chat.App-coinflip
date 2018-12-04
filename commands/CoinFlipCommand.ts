@@ -24,7 +24,7 @@ export class CoinFlipCommand implements ISlashCommand {
             .setSender(context.getSender()).setRoom(context.getRoom())
             .setText(text).setUsernameAlias(username).setAvatarUrl(icon);
 
-        // Respond back to user in room 
+        // Respond back to user in room
         await modify.getCreator().finish(builder);
 
         return;
