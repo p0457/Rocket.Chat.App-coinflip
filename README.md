@@ -1,6 +1,8 @@
 # Coin Flip
 Flips a coin.
 
+You can change the Name that the application posts as, as well as the icon.
+
 ## Biolerplate for Rocket.Chat Apps:
 
 ### Getting Started
